@@ -30,4 +30,31 @@ print ("Valor:", numero_inteiro)
 #Type() mostra qual é o tipo da variável
 print("Tipo", type(numero_inteiro))
 
-print
+print ("--------------------------------")
+
+# exemplo 02 - numero decimal 
+
+# float é um numero com ponto decimal
+numero_decimal = 3.14
+
+print ("Valor:", numero_decimal)
+print ("tipo:", type(numero_decimal))
+
+print("------------------------------")
+
+# exemplo 03 - numeros complexos
+# um numero complexo possui duas partes:
+#parte real (numero normal)
+#parte imaginaria (multiplicada por j)
+
+#estrutura geral: 
+# numero = a + bj
+
+# a = parte real
+# b = parte imaginaria
+# j = unidade imaginaria
+
+numero_complexo = 2 + 3j
+
+print("Valor:", numero_complexo)
+print("Tipo", type(numero_complexo))
