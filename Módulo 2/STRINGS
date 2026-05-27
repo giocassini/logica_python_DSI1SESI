@@ -1,0 +1,85 @@
+# ======================================================
+# MÓDULO 1 — CRIAÇÃO DE STRINGS
+# ======================================================
+
+# EX 1
+texto1 = "logica" 
+print(texto1)
+
+# EX 2
+texto2 = 'Eu sou top em python'
+print(texto2)
+
+# EX 3
+string = 'Copa "padrão fifa"'
+print(string)
+
+# EX 4
+string = "Copa 'padrão fifa'"
+print(string)
+
+# ======================================================
+# MÓDULO 2 — STRINGS MULTILINHA
+# ======================================================
+
+# EX 5
+menu = """\
+Uso: Programa [opções]
+- A exibe ajuda
+- E executa agora,quero jogar!
+"""
+print(menu)
+
+# EX 6 
+poema = """\
+No silencio da tarde, floresce o pensamento, 
+O vento leve sonhos por caminhos de luar,
+E o coração descansa no abraço do momento.
+"""
+print(poema)
+
+# ======================================================
+# MÓDULO 3 — CONCATENAÇÃO AUTOMÁTICA
+# ======================================================
+
+# EX 7
+texto = ("Volei" "Top")
+print(texto)
+
+# EX 8
+texto2 = ("Python" "é" "demais")
+print(texto2)
+
+# ======================================================
+# MÓDULO 4 — STRINGS COMO SEQUÊNCIAS
+# ======================================================
+
+# EX 9
+st = "software" 
+print("primeira letra:", st[0])
+
+# EX 10
+print("Última letra:", st[-1])
+
+# EX 11
+print("Trecho1:", st[1:4])
+
+# EX 12
+print("Do ínicio até 3:", st[:3])
+
+# EX 13
+print("Do dois até o fim:", st[2:])
+
+# EX 14
+print("Tamanho:", len(st))
+
+# EX 15
+print("Última letra:", st[7])
+
+# EX 16 
+print(st[::2])
+
+# EX 17
+print(st[::-1])
+
+
