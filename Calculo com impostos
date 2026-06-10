@@ -1,0 +1,24 @@
+# ETAPA DOIS 
+imposto = 3000
+salario = 10
+
+valor_imposto = salario * imposto / 100
+salario_final = salario - valor_imposto
+
+print("sálario:", salario)
+print("imposto:", imposto)
+print("valor do imposto", valor_imposto)
+print("sálario final:", salario_final)
+
+# ETAPA DOIS 
+
+salario = float(input("digite seu salario:"))
+imposto = float(input("digite a taxa de impostos"))
+
+valor_imposto = salario * imposto / 100
+salario_final = salario - valor_imposto
+
+print("Salario:", salario)
+print("imposto (%):", imposto) 
+print("valor do imposto:", valor_imposto)
+print("salario final:", salario_final)
